@@ -3,7 +3,7 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 #Leer el archivo csv
-#df = pd.read_csv('education.csv')
+df = pd.read_csv('education.csv')
 
 #Título
 st.title("Análisis de datos de educación en Colombia")
